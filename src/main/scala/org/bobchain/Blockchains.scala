@@ -3,7 +3,7 @@ package org.bobchain
 object Blockchains {
 
   /**
-    * Cretates a SHA-256 hash string for the given block.
+    * Creates a SHA-256 hash string for the given block.
     *
     * NOTE: This is by far not a good hashing method and potentially, ... but for the moment we do not care ;-
     *
@@ -17,9 +17,12 @@ object Blockchains {
         So this might break easily and not provide reproducible hashes ;-) ... to be revisited
     */
     val blockString = JsonUtils.toJson(block)
+    hashOf(blockString)
+  }
 
+  def hashOf(value:String) : String = {
     import com.roundeights.hasher.Implicits._
-    blockString.sha256
+    value.sha256
   }
 
 }
