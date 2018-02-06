@@ -15,7 +15,7 @@ Therefore, here a proposal for a (fictional) use case (for further work after th
 * We are creating a blockchain for clean coders: We will use it in the (far) future to reward clean coders, who are working on our code (e.g. giving valuable comments or improving it) - how to measure this might stay fictional forever ;-)
 * our value token might be called 'bob' - in honor of uncle bob (http://blog.cleancoder.com/) - That is also the reason why the blockchain is called 'bobchain' for the moment
 
-... please also here: Feel free to contribute also ideas here ... this is just a start ... can change totally  (I just did not want to call the project blockchain-try-123 ;-)
+... please also here: Feel free to contribute also ideas ... this is just a start ... can change totally  (I just did not want to call the project blockchain-try-123 ;-)
 
 ## Ideas for contributing
 Any contributions welcome ;-)
