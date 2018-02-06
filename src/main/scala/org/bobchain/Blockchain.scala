@@ -16,6 +16,8 @@ class Blockchain {
   var currentTransactions: Vector[Transaction] = Vector.empty
   var chain: Vector[Block] = Vector.empty
 
+  newBlock(0, "genesis")
+
   /**
     * Creates a new Block and adds it to the chain
     *

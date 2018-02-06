@@ -15,10 +15,6 @@ class BlockchainsTest extends FunSuite {
     assert(hash(blockOfIndex(1)) != hash(blockOfIndex(2)))
   }
 
-  test("last block is genesis after instantiation") {
-
-  }
-
   private def blockOfIndex(index: Int): Block = {
     new Block(index = index, previousHash = "any", proof = 1, time = Instant.ofEpochSecond(0), transactions = Vector.empty)
   }
